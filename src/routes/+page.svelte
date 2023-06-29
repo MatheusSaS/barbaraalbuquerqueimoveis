@@ -33,7 +33,7 @@
           %0A•Metragem%3A ${selectedOption} %0A
           `;
     window.open(`
-        https://api.whatsapp.com/send/?phone=5517997283077&text=${mensagem}
+        https://api.whatsapp.com/send/?phone=5511991694514&text=${mensagem}
       `);
   }
 </script>
@@ -66,7 +66,7 @@
               class="relative z-0 text-center flex flex-col min-w-0 break-words bg-dark border-0 shadow-md rounded-lg border-base-200"
             >
               <p class="text-gray-300 mb-8">
-                Preencha o formulário e entrmaos em contato com o seu imóvel de
+                Preencha o formulário e entraremos em contato com o seu imóvel de
                 Alto Padrão
               </p>
               <div class="flex-auto p-6">
@@ -102,7 +102,7 @@
                     class="py-4 pl-4 w-full placeholder-gray-400 focus:outline-none border-0 focus:border border-base-300 focus:border-[#b89748] rounded-lg bg-[#202020]"
                     id="bairro"
                     name="bairro"
-                    placeholder="bairro"
+                    placeholder="Bairro"
                     bind:value={bairro}
                   />
                 </div>

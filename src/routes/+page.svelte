@@ -5,7 +5,7 @@
   let telefone = "";
   let bairro = "";
   let mensagem = ''
-  let selectedOption = '25 a 50 metros';
+  let selectedOption = 'De 25 a 50 metros';
 
   function onSubmit() {
     if (nome == "" || nome == undefined) {
@@ -111,8 +111,8 @@
                   <div class="py-4 pl-4 w-full placeholder-gray-400 focus:outline-none border-0 focus:border border-base-300 focus:border-[#b89748] rounded-lg bg-[#202020]">
                     <div class="form-control">
                       <label class="label cursor-pointer">
-                        <span class="label-text">25 a 50 metros</span>
-                        <input type="radio" name="radio-10" class="radio" value="25 a 50 metros" bind:group={selectedOption} />
+                        <span class="label-text">De 25 a 50 metros</span>
+                        <input type="radio" name="radio-10" class="radio" value="De 25 a 50 metros" bind:group={selectedOption} />
                       </label>
                     </div>
                     <div class="form-control">

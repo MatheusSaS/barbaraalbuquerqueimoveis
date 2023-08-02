@@ -1,18 +1,34 @@
 <!DOCTYPE html>
-<html lang="pt-br" data-theme="black" class="bg-black">
+<html class="bg-black" data-theme="black" lang="pt-br">
   <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="%sveltekit.assets%/rw.png" />
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <meta name="viewport" content="width=device-width" />
-    <script src="https://kit.fontawesome.com/f766d37292.js"
-      crossorigin="anonymous"></script>
+    <meta charset="utf-8">
+    <link href="%sveltekit.assets%/rw.png" rel="icon">
+    <link href="https://unpkg.com/aos@next/dist/aos.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width">
+    <script src="https://kit.fontawesome.com/f766d37292.js" crossorigin="anonymous"></script>
+    <!-- Meta Pixel Code -->
+  <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '2259773034248464');
+    fbq('track', 'PageView');    
+  </script>
+  <noscript>
+    <img src="https://www.facebook.com/tr?id=2259773034248464&ev=PageView&noscript=1" height="1" width="1" style="display:none">
+  </noscript>
+  <!-- End Meta Pixel Code -->
     %sveltekit.head%
   </head>
   <body class="">
-    <div vw class="enabled">
-      <div vw-access-button class="active"></div>
-      <div vw-plugin-wrapper>
+    <div class="enabled" vw>
+      <div class="active" vw-access-button></div>
+      <div vw-plugin-wrapper="">
         <div class="vw-plugin-top-wrapper"></div>
       </div>
     </div>
